@@ -9,13 +9,14 @@ By: Oke Amuwha
 theta = np.linspace(0, 2 * np.pi, 100)
 radius = 4
 
-#Coordinates
+#Coordinates for circle
 x = radius * np.cos(theta)
 y = radius * np.sin(theta)
 
-#Equation
-
+#coordinates for sine wave
+period = np.linspace(0, 2 * np.pi, 100)
+y2 = np.sin(period)
 
 #Plot and show data
-plt.plot(x,y)
+plt.plot(period, y2)
 plt.show()
