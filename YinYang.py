@@ -1,18 +1,17 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
-import math
 
 """
 By: Oke Amuwha
 3/17/22
 """
+theta = np.linspace(0, 2 * np.pi, 100)
+radius = 4
+
 #Coordinates
-x = np.linspace(0, 2, 128)
-y = np.linspace(0, 2, 128)
-h = 0
-k = 0
-radius = 16
+x = radius * np.cos(theta)
+y = radius * np.sin(theta)
 
 #Equation
 
