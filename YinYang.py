@@ -21,4 +21,5 @@ ysin = np.sin(xsin)
 #Plot and show data
 plt.plot(x, y)
 plt.plot(xsin, ysin)
+plt.axis("off")
 plt.show()
